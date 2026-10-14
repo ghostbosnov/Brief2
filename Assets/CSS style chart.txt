@@ -1,0 +1,89 @@
+!----------sub-heading style-----------!
+
+font-family: Inter;
+font-weight: 600;
+font-style: Semi Bold;
+font-size: 13px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+
+!----------H1 font style------------!
+
+font-family: Inter;
+font-weight: 700;
+font-style: Bold;
+font-size: 56px;
+leading-trim: NONE;
+line-height: 112.00000000000001%;
+letter-spacing: -2.1px;
+
+
+!----------logo style----------!
+
+font-family: Inter;
+font-weight: 700;
+font-style: Bold;
+font-size: 25px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: -0.9px;
+
+!-----------nav link style--------!
+
+font-family: Inter;
+font-weight: 500;
+font-style: Medium;
+font-size: 14px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+
+!----------- button --------!
+
+font-family: Inter;
+font-weight: 600;
+font-style: Semi Bold;
+font-size: 15px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+
+
+!----------- typo ----------!
+
+font-family: Inter;
+font-weight: 400;  ||  font-weight: 400;
+font-style: Regular;
+font-size: 15px;  ||  font-size: 16px;  ||  font-size: 17px; 
+leading-trim: NONE;
+line-height: 165%;
+letter-spacing: 0%;
+
+!-------- highlight typo --------!
+
+
+
+
+
+
+
+
+
+
+
+
+||||||||||----- COlORS ----||||||
+
+primary(dark blue) :#102A43
+secondary(light blue) :#0866C2
+highlight-typo(dark blue):#102A43
+normal-typo(grey):#486176
+white:#ffffff
+accent(orange):#FF6418
+
+
+////// bg colors ///////
+ 
+color:  #F3F7FA 
+       #ffffff
