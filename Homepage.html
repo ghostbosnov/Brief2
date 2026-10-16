@@ -5,18 +5,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.9.1/fonts/remixicon.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
     <title>PLOMB'Express</title>
-    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <section class="header">
         <div class="logo">
-            <div class="logo-shape">
-                <i class="ri-contrast-drop-line"></i>
+            <div class="logo-div">
+                <div class="logo-shape">
+                    <i class="ri-drop-line"></i>
+                </div>
+                <div class="logo-name">
+                    <span class="logo-fname">Plomb’ </span><span class="logo-lname">Express</span>
+                </div>
             </div>
-            <div class="logo-name">
-                <span class="logo-fname">Plomb’ </span><span class="logo-lname">Express</span>
+
+            <div class="hamburger-menu">
+                <i class="ri-menu-line"></i>
             </div>
         </div>
         <div class="nav-links">
@@ -25,33 +36,35 @@
             <a href="About.html" target="_blank">About</a>
             <a href="Contact.html" target="_blank">Contact</a>
         </div>
-        <div>
+        <div class="header-button">
             <button type="button" href="Contact.html" class="prim-button">Demander un devis</button>
         </div>
     </section>
     <section class="hero-section">
         <div class="hero-section1">
-            <div class="hero-content">
-                <span>
-                    <i class="ri-map-pin-line"></i>
-                    <p>
-                        Votre artisan à Lyon et alentours
+            <div class="hero-content-container">
+                <div class="hero-content">
+                    <span>
+                        <i class="ri-map-pin-line"></i>
+                        <p>
+                            Votre artisan à Lyon et alentours
+                        </p>
+                    </span>
+                    <h1>
+                        Un plombier de confiance près de chez vous
+                    </h1>
+                    <p class="content-des">
+                        Chez Plomb’Express, nous prenons soin de votre confort. Dépannage, installation ou fuite : nos
+                        artisans vous accompagnent avec réactivité, transparence et un travail soigné.
                     </p>
-                </span>
-                <h1>
-                    Un plombier de confiance près de chez vous
-                </h1>
-                <p class="content-des">
-                    Chez Plomb’Express, nous prenons soin de votre confort. Dépannage, installation ou fuite : nos
-                    artisans vous accompagnent avec réactivité, transparence et un travail soigné.
-                </p>
+                </div>
                 <div class="hero-buttons">
-                    <button type="button" href="Contact.html" class="prim-button">Demander un devis
-                        ----->
+                    <button type="button" href="Contact.html" class="prim-button">Demander un devis----->
                     </button>
                     <button type="button" href="Services.html" class="sec-button">Nos services</button>
                 </div>
             </div>
+
             <div class="hero-img">
                 <img src="Assets/hero-img.jpg" alt="Plombier">
             </div>
@@ -60,19 +73,19 @@
         <div class="hero-section2">
             <div class="hero-section2-stat">
                 <span>
-                    <i class="fa-sharp-duotone fa-regular fa-clock"></i>
+                    <i class="ri-time-line"></i>
                     Intervention rapide 7j/7
                 </span>
             </div>
             <div class="hero-section2-stat">
                 <span>
-                    <i class="fa-sharp-duotone fa-regular fa-shield-check"></i>
+                    <i class="ri-shield-check-line"></i>
                     Travail garanti
                 </span>
             </div>
             <div class="hero-section2-stat">
                 <span>
-                    <i class="fa-sharp-duotone fa-regular fa-badge-check"></i>
+                    <i class="ri-verified-badge-line"></i>
                     Professionnels qualifiés
                 </span>
             </div>
@@ -80,50 +93,197 @@
     </section>
     <section class="service-section">
         <div class="service-des">
-            <p>NOS SAVOIR-FAIRE</p>
+            <p class="service-des-sub">NOS SAVOIR-FAIRE</p>
             <h2>Des solutions pour tous vos besoins</h2>
-            <p>De l’urgence au projet, le bon geste pour chaque situation.</p>
+            <p class="service-des-p">De l’urgence au projet, le bon geste pour chaque situation.</p>
         </div>
         <div class="service-cards">
             <article>
-                <img src="Assets/article1.jpg" alt="plombier fixing a pipe">
-                <i>W</i>
-                <p>
-                    Dépannage plomberie
-                </p>
-                <p>
-                    Canalisation bouchée, chauffe-eau en panne ou robinet défectueux : nous intervenons vite pour
-                    rétablir votre confort.
-                </p>
+                <div class="service-card-img">
+                    <img src="Assets/article1.jpg" alt="plombier fixing a pipe">
+                </div>
+                <div class="service-card-des">
+                    <div class="logo-shape-s">
+                        <i class="ri-wrench-line"></i>
+                    </div>
+                    <div class="service-card-des-title">
+
+                        <h5>
+                            Dépannage plomberie
+                        </h5>
+                    </div>
+                    <p>
+                        Canalisation bouchée, chauffe-eau en panne ou robinet défectueux : nous intervenons vite pour
+                        rétablir votre confort.
+                    </p>
+                </div>
             </article>
 
             <article>
-                <img src="Assets/article2.jpg">
-                <i>S</i>
-                <p>
-                    Réparation de fuites
-                </p>
-                <p>
-                    Lavabo, douche, WC ou robinetterie : une installation sur mesure, des raccordements fiables et des
-                    finitions soignées.
-                </p>
+                <div class="service-card-img">
+                    <img src="Assets/article2.jpg">
+                </div>
+                <div class="service-card-des">
+                    <div class="logo-shape-s">
+                        <i class="ri-showers-line"></i>
+                    </div>
+                    <div class="service-card-des-title">
+                        <h5>
+                            Installation sanitaire
+                        </h5>
+                    </div>
+                    <p>
+                        Lavabo, douche, WC ou robinetterie : une installation sur mesure, des raccordements fiables et
+                        des
+                        finitions soignées.
+                    </p>
+                </div>
+
             </article>
             <article>
-                <img src="Assets/article3.jpg">
-                <i>D</i>
-                <p>
-                    Réparation de fuites
-                </p>
-                <p>
-                    Nous localisons la fuite et réparons vos canalisations durablement, pour protéger votre logement et
-                    éviter le gaspillage.
-                </p>
+                <div class="service-card-img">
+                    <img src="Assets/article3.jpg">
+                </div>
+                <div class="service-card-des">
+                    <div class="logo-shape-s">
+                        <i class="ri-drop-line"></i>
+                    </div>
+                    <div class="service-card-des-title">
+
+                        <h5>
+                            Réparation de fuites
+                        </h5>
+                    </div>
+                    <p>
+                        Nous localisons la fuite et réparons vos canalisations durablement, pour protéger votre logement
+                        et
+                        éviter le gaspillage.
+                        </h5>
+                </div>
+
             </article>
         </div>
-        <button class="sec-button">Voir tous nos services </button>
+        <div class="services-button">
+            <button class="sec-button">Voir tous nos services </button>
+        </div>
     </section>
-    <section class="about-section"></section>
-    <section class="footer"></section>
+    <section class="about-section">
+        <div class="about-section1">
+            <p>
+                POURQUOI NOUS CHOISIR ?
+            </p>
+            <h2>Un service fiable et de qualité</h2>
+            <p>
+                Votre tranquillité mérite un artisan engagé. Nous faisons de la qualité et de la confiance nos
+                priorités, à chaque intervention.
+            </p>
+        </div>
+        <div class="about-img">
+            <img src="Assets/sect3.jpg">
+        </div>
+        <div class="about-section2">
+            <div class="about-points">
+                <div class="about-point">
+                    <div class="about-point-title">
+                        <i class="ri-verified-badge-line"></i>
+                        <p>Expertise</p>
+                    </div>
+                    <p>Des artisans qualifiés et expérimentés pour un diagnostic précis.</p>
+                </div>
+                <div class="about-point">
+                    <div class="about-point-title">
+                        <i class="ri-todo-line"></i>
+                        <p>Devis gratuit</p>
+                    </div>
+                    <p>Un prix clair avant les travaux, sans mauvaise surprise.</p>
+                </div>
+                <div class="about-point">
+                    <div class="about-point-title">
+                        <i class="ri-shield-check-line"></i>
+                        <p>Garantie</p>
+                    </div>
+                    <p>Des travaux garantis et des équipements sélectionnés pour durer.</p>
+                </div>
+                <div class="about-point">
+                    <div class="about-point-title">
+                        <i class="ri-customer-service-line"></i>
+                        <p>Service client</p>
+                    </div>
+                    <p>Une équipe à votre écoute, du premier appel au suivi de votre intervention.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer-section">
+        <div class="footer-section1">
+            <div class="footer-des">
+                <div class="footer-des-heading">
+                    <div class="logo-shape-s">
+                        <i class="ri-contrast-drop-line"></i>
+                    </div>
+                    <p>
+                        Plomb’Express
+                    </p>
+                </div>
+                <p class="footer-description">
+                    Votre partenaire plomberie pour un quotidien serein. Des artisans de proximité, un travail soigné et
+                    des engagements tenus.
+                </p>
+                <div class="footer-social-icons">
+                    <div class="social-icon">
+                        <i class="ri-facebook-fill"></i>
+                    </div>
+                    <div class="social-icon">
+                        <i class="ri-instagram-line"></i>
+                    </div>
+                    <div class="social-icon">
+                        <i class="ri-linkedin-fill"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-li">
+                <div>
+                    <h5>Liens utiles</h5>
+                </div>
+                <div class="footer-links">
+                    <a href="">Acceuil</a>
+                    <a href="">Services</a>
+                    <a href="">À propos</a>
+                    <a href="">Contact</a>
+                </div>
+            </div>
+            <div class="footer-li">
+                <div>
+                    <h5>services</h5>
+                </div>
+                <div>
+                    <p>Dépannage plomberie</p>
+                    <p>Installation sanitaire</p>
+                    <p>Réparation de fuites</p>
+                </div>
+            </div>
+            <div class="footer-li">
+                <div>
+                    <h5>Contactez-nous</h5>
+                </div>
+                <div>
+                    <p>Dépannage plomberie</p>
+                    <p>Installation sanitaire</p>
+                    <p>Réparation de fuites</p>
+                    <p>Coordonnées fictives — site de démonstration.</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-section2">
+            <div class="footer-privacy">
+                <p> © 2026 Plomb’Express. Tous droits réservés.</p>
+            </div>
+            <div class="legal-mentions">
+                <p>Mentions légales</p>
+                <p>Confidentialité</p>
+            </div>
+        </div>
+    </section>
 
 </body>
 
